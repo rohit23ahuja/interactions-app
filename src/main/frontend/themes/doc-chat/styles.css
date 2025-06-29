@@ -1,3 +1,42 @@
+.upload-panel {
+    padding: 1rem;
+    border: 1px solid var(--lumo-contrast-10pct);
+    border-radius: var(--lumo-border-radius);
+    background-color: var(--lumo-base-color);
+}
+
+.upload-header {
+    font-size: var(--lumo-font-size-l);
+    margin-bottom: var(--lumo-space-m);
+}
+
+.upload-button {
+    margin-top: var(--lumo-space-m);
+}
+
+.upload-list {
+    margin-top: var(--lumo-space-s);
+}
+
+.upload-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--lumo-space-xs);
+    border-bottom: 1px solid var(--lumo-contrast-10pct);
+}
+
+.upload-list-item:last-child {
+    border-bottom: none;
+}
+
+.upload-list-item .file-name {
+    font-weight: bold;
+}
+
+.upload-list-item .remove-button {
+    color: var(--lumo-error-color);
+    cursor: pointer;
+}
 .new-chat-button {
     position: fixed;
     top: 0;
