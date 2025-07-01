@@ -191,3 +191,5 @@ src/main/resources/database.xml
 node_modules/
 src/main/frontend/generated/
 vite.generated.ts
+
+logs/
