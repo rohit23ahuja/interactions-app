@@ -11,14 +11,14 @@ import com.vaadin.flow.theme.lumo.LumoUtility;
 import dev.rohitahuja.rag.RagService;
 import org.vaadin.firitin.components.messagelist.MarkdownMessage;
 
-@PageTitle("Knowledge Search")
-@Route(value = "search", layout = MainLayout.class)
-public class KnowledgeSearchView extends VerticalLayout {
+@PageTitle("Document Chat")
+@Route(value = "doc-chat", layout = MainLayout.class)
+public class DocsChatView extends VerticalLayout {
 
     private MessageInput messageInput = new MessageInput();
     private final RagService ragService;
 
-    public KnowledgeSearchView(RagService ragService) {
+    public DocsChatView(RagService ragService) {
         this.ragService = ragService;
         var newChatButton = new Button("New Chat");
         var messageList = new VerticalLayout();

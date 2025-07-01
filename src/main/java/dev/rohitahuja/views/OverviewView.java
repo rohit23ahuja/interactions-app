@@ -9,16 +9,16 @@ import com.vaadin.flow.router.Route;
 
 @PageTitle("Welcome")
 @Route(value = "", layout = MainLayout.class)
-public class WelcomeView extends VerticalLayout {
+public class OverviewView extends VerticalLayout {
 
-    public WelcomeView() {
+    public OverviewView() {
         setWidthFull();
         setJustifyContentMode(JustifyContentMode.CENTER);
         setAlignItems(Alignment.CENTER);
         setPadding(true);
         setSpacing(true);
 
-        H1 title = new H1("Welcome to Interactions App");
+        H1 title = new H1("Idea - Interactions App");
         Paragraph intro = new Paragraph(
                 "The idea behind Interactions App is to provide a single interface or platform that allows you to interact with your Application using natural language. " +
                         "The App aims to solves various use cases such as: chat with your knowledge base, Chat with your database, execute your business logic, etc."

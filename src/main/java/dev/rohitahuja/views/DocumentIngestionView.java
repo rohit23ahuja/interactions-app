@@ -13,13 +13,13 @@ import dev.rohitahuja.ingestion.CustomMultipartFile;
 import dev.rohitahuja.ingestion.FileUploadService;
 
 
-@PageTitle("Ingestion")
-@Route(value = "ingestion", layout = MainLayout.class)
-public class IngestionView extends Div {
+@PageTitle("Document Ingestion")
+@Route(value = "doc-ingestion", layout = MainLayout.class)
+public class DocumentIngestionView extends Div {
 
     private final FileUploadService fileUploadService;
 
-    public IngestionView(FileUploadService fileUploadService) {
+    public DocumentIngestionView(FileUploadService fileUploadService) {
         this.fileUploadService = fileUploadService;
 
         addClassName("ingestion-view");

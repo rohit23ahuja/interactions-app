@@ -49,11 +49,12 @@ public class MainLayout extends AppLayout {
         SideNav nav = new SideNav();
         nav.addClassNames(LumoUtility.Margin.SMALL, LumoUtility.Margin.Top.NONE);
 
-        nav.addItem(new SideNavItem("Welcome", WelcomeView.class, LineAwesomeIcon.QUESTION_CIRCLE.create()));
-        nav.addItem(new SideNavItem("Knowledge Search", KnowledgeSearchView.class, LineAwesomeIcon.IMAGE.create()));
-        nav.addItem(new SideNavItem("Ingestion", IngestionView.class, LineAwesomeIcon.FILE.create()));
-        nav.addItem(new SideNavItem("Tools", ToolsView.class, LineAwesomeIcon.SCREWDRIVER_SOLID.create()));
-        nav.addItem(new SideNavItem("MCP", McpView.class, LineAwesomeIcon.WRENCH_SOLID.create()));
+        nav.addItemAtIndex(0, new SideNavItem("Overview", OverviewView.class, LineAwesomeIcon.QUESTION_CIRCLE.create()));
+        nav.addItemAtIndex(1, new SideNavItem("Database Chat", DatabaseChatView.class, LineAwesomeIcon.WRENCH_SOLID.create()));
+        nav.addItemAtIndex(2, new SideNavItem("Document Chat", DocsChatView.class, LineAwesomeIcon.IMAGE.create()));
+        nav.addItemAtIndex(3, new SideNavItem("Document Ingestion", DocumentIngestionView.class, LineAwesomeIcon.FILE.create()));
+        nav.addItemAtIndex(4, new SideNavItem("Tools", ToolsView.class, LineAwesomeIcon.SCREWDRIVER_SOLID.create()));
+
 
         return nav;
     }

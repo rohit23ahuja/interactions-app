@@ -9,12 +9,12 @@ import com.vaadin.flow.router.Route;
 import dev.rohitahuja.mcp.McpService;
 import org.vaadin.firitin.components.messagelist.MarkdownMessage;
 
-@PageTitle("MCP")
+@PageTitle("Database Chat")
 @Menu(order = 0)
-@Route(value = "mcp", layout = MainLayout.class)
-public class McpView extends VerticalLayout {
+@Route(value = "data-chat", layout = MainLayout.class)
+public class DatabaseChatView extends VerticalLayout {
 
-    public McpView(McpService mcpService) {
+    public DatabaseChatView(McpService mcpService) {
         var messageList = new VerticalLayout();
         var scroller = new Scroller(messageList);
         var messageInput = new MessageInput();
