@@ -53,6 +53,7 @@ public class MainLayout extends AppLayout {
         nav.addItem(new SideNavItem("Knowledge Search", KnowledgeSearchView.class, LineAwesomeIcon.IMAGE.create()));
         nav.addItem(new SideNavItem("Ingestion", IngestionView.class, LineAwesomeIcon.FILE.create()));
         nav.addItem(new SideNavItem("Tools", ToolsView.class, LineAwesomeIcon.SCREWDRIVER_SOLID.create()));
+        nav.addItem(new SideNavItem("MCP", McpView.class, LineAwesomeIcon.WRENCH_SOLID.create()));
 
         return nav;
     }
