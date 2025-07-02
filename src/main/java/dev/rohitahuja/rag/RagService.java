@@ -22,7 +22,7 @@ import java.util.Map;
 public class RagService {
     private final ChatClient chatClient;
     private final VectorStore vectorStore;
-    @Value("classpath:/prompts/ipl-bot-reference.st")
+    @Value("classpath:/prompts/trade-surveillance.st")
     private Resource sbPromptTemplate;
     private static final Logger _log = LoggerFactory.getLogger(RagService.class);
 

@@ -1,0 +1,14 @@
+can you teach me mifid regulation?
+
+what is insider trading? provide an example with you response
+
+===================================================
+
+tell me the count of orders feed for 1st october 2024
+
+for trades feed and for first 15 days of november 2024, tell me the count for each date. provide date in DD/MM format.
+
+for orders feed and for month october 2024, categorize the dates into three categories and tell the percentage of each category :-
+category 1 - count between 0 and 20
+category 2 - count between 20 and 40
+category 3 - count greater than 40
