@@ -49,12 +49,12 @@ public class MainLayout extends AppLayout {
         SideNav nav = new SideNav();
         nav.addClassNames(LumoUtility.Margin.SMALL, LumoUtility.Margin.Top.NONE);
 
-        nav.addItemAtIndex(0, new SideNavItem("Overview", OverviewView.class, LineAwesomeIcon.QUESTION_CIRCLE.create()));
-        nav.addItemAtIndex(1, new SideNavItem("Database Chat", DatabaseChatView.class, LineAwesomeIcon.WRENCH_SOLID.create()));
-        nav.addItemAtIndex(2, new SideNavItem("Document Chat", DocsChatView.class, LineAwesomeIcon.IMAGE.create()));
-        nav.addItemAtIndex(3, new SideNavItem("Document Ingestion", DocumentIngestionView.class, LineAwesomeIcon.FILE.create()));
-        nav.addItemAtIndex(4, new SideNavItem("Tools", ToolsView.class, LineAwesomeIcon.SCREWDRIVER_SOLID.create()));
-
+        nav.addItemAtIndex(0, new SideNavItem("Overview", OverviewView.class, LineAwesomeIcon.ATOM_SOLID.create()));
+        nav.addItemAtIndex(1, new SideNavItem("Document Chat", DocsChatView.class, LineAwesomeIcon.COMMENTS_SOLID.create()));
+        nav.addItemAtIndex(2, new SideNavItem("Document Ingestion", DocumentIngestionView.class, LineAwesomeIcon.FILE_ALT_SOLID.create()));
+        nav.addItemAtIndex(3, new SideNavItem("Database Chat", DatabaseChatView.class, LineAwesomeIcon.DATABASE_SOLID.create()));
+        nav.addItemAtIndex(4, new SideNavItem("Data Visualisation", ChartView.class, LineAwesomeIcon.CHART_BAR_SOLID.create()));
+        nav.addItemAtIndex(5, new SideNavItem("Tools", ToolsView.class, LineAwesomeIcon.CODE_SOLID.create()));
 
         return nav;
     }

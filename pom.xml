@@ -89,7 +89,11 @@
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-starter-mcp-client-webflux</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.5.6</version>
+		</dependency>
 
 	</dependencies>
 	<dependencyManagement>
