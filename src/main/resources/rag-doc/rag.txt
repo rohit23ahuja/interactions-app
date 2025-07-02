@@ -1,0 +1,37 @@
+Q: What is Trade Surveillance?
+A: Trade Surveillance or market abuse surveillance involves capturing trade data, and then monitoring and analysing it to detect potential market abuse and other forms of financial crime, such as rogue trading. While legal definitions of market abuse can vary by country, in the UK it includes insider dealing, unlawful disclosure, market manipulation and attempted manipulation. Trade data is often analysed in conjunction with voice and electronic communications data. If suspicious patterns are detected, compliance needs to perform an investigation to determine what further action, if any, is required. Firms also need to store all data, so they can access it for future investigations, or at the request of the regulator. Under regulations such as MiFID II, data needs to be stored for a minimum of 5 years and in some cases up to 7 years.
+
+Q: What are the problems to overcome and challenges associated with trade surveillance?
+A: Vast Data Volumes: Enormous amounts of trading data must be processed and analyzed in real time, posing a significant data management challenge. Complex Regulatory Landscape: Evolving and diverse global regulations require financial institutions (FIs) to adapt their surveillance processes continually. False Positives: Inaccurate alerts can lead to the wasting of resources on investigating benign activities. Siloed Surveillance Systems – many firms leverage multiple systems looking at distinct datasets, and these disconnected systems don’t communicate with each other, leaving firms with an incomplete picture of events, and missing risks. Real-time Analysis: Timely identification of suspicious trading patterns is essential to prevent market abuse, which demands real-time analytical capabilities.
+
+Q: Provide an example on Insider Trading?
+A: an investment firm may uncover an instance where one of its employees engages in trading activities based on non-public information related to a merger, a clear case of insider trading
+
+Q: What is pump and dump?
+A: a trader might attempt to influence stock prices through a coordinated strategy of buying and selling known as "pump and dump," thereby highlighting the significance of trade surveillance in identifying such trading misconduct.
+
+Q: What regulations require trade surveillance?
+A: Most jurisdictions around the globe have their own set of specific trade surveillance requirements that must be adhered to. Some of the most prominent rules include:
+The EU Markets in Financial Instruments Directive II (MIFID II)
+According to Article 16(6) of the regulation, firms need to capture and store trade and communications data that could relate to a transaction, even if the transaction did not take place. Records are required for all conversations involving a firm’s representatives when trading, or intending to trade. Where orders are communicated by clients through other channels than by telephone, such communications should be made in a durable medium such as mails, faxes, emails, and documentation of client orders made at meetings. Under MiFID II, the regulator can ask its authorised firms to reconstruct the scenario around a trade or order at any point. This requires firms to be able to readily reproduce any relating records alongside all the transaction details.
+Trade Reconstruction: A growing pain point
+The EU Market Abuse Regulation (MAR) – Again, firms are required to capture, monitor, and store trade data that could relate to a transaction, it does not matter if transaction occurred or not. Under MAR, firms are required to actively monitor and analyse their trade and communications data (can be in isolation) to detect market abuse, potential or otherwise. Where a potential instance of market abuse has been identified, this needs to be reported to the regulator. In the UK this happens via a STOR report, which needs to be filed even if it is determined that market abuse did not take place.
+EU Benchmark Regulation – Firms that contribute data to benchmarks need to provide surveillance to detect suspicious trade inputs.
+US Dodd-Frank Act – This substantial package of rules requires firms to capture, monitor and store trade data, as well as communications data, so that market abuse can be detected.
+Firms can expect market abuse regulations, and their trade surveillance requirements, to continue to evolve as trading data, technology, the market, and financial crime changes. For example, Covid-19 had a significant impact because of the sudden need to capture data from employees working from remote locations. Now, regulators are expecting firms to be able to provide trade surveillance in these situations – something unimaginable even just 24 months ago.
+
+Q: What are the regulators’ expectations around trade surveillance?
+A: The current set of trade surveillance rules have been in place for a few years now, so many regulators are focusing in on the compliance and enforcement. Recent areas of regulatory interest include:
+Monitoring trade data from remote working – As a result of the Covid-19 pandemic, firms now need to be able to capture and analyse trade data and communications no matter what the physical location of their regulated employees is.
+Market abuse challenges putting compliance teams under pressure >
+Delivering accurate transaction data – Firms are expected to submit accurate transaction data to regulators under the MiFID II regulatory transaction reporting requirements, because regulators themselves use this data for surveying the market for financial crime and market abuse.
+Why your firm should rethink its regulatory reporting strategy >
+Monitoring flexibly – Regulators recognise that market abuse rapidly shape-shifts as criminals try and avoid detection. So, they want firms to be able to perform trade surveillance flexibly, to detect and respond to new risks and threats.
+Essentially, regulators are expecting a firm’s approach to trade surveillance and technology to keep up with advances in other areas of the financial services industry.
+
+Q: What Is Wash Trading?
+A: Wash trading is a process whereby a trader buys and sells a security for the express purpose of feeding misleading information to the market. In some situations, wash trades are executed by a trader and a broker who are colluding with each other, and other times wash trades are executed by investors acting as both the buyer and the seller of the security.
+Wash trading misleads investors into believing that trading volumes for a security are higher than they actually are, potentially increasing legitimate trading activity on the security in the process. Wash trading is illegal under U.S. law, and the Internal Revenue Service (IRS) bars taxpayers from deducting losses that result from wash trades from their taxable income.
+
+Q: What Is Portfolio Pumping?
+A: Portfolio pumping, also known as "painting the tape," is the practice of artificially inflating the performance of an investment portfolio. It is typically done by purchasing large amounts of shares in existing positions, shortly before the end of the reporting period. This practice is especially common among investment funds that hold positions in relatively illiquid securities because the prices of such securities can be more easily manipulated. Securities regulators, such as the Securities and Exchange Commission (SEC), seek to detect and sanction this behavior by monitoring suspicious transactions.
