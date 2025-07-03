@@ -52,6 +52,44 @@ java programming language
 3. Closing Slide-
 -Help me help Ben Stokes by giving me the opportunity to build interactions app, it will not just be helpful for Ben but to his collegues across C&I
 Points to consider
+- Light weight models can be used for data analysis to save cost.
+- Build generic MCP servers
+- MCP servers for charts and visualizations
+- Explore Ollama Model runner to run models locally and with privacy.
+- MCPs for charts and visualizations,
+- MCPs for various DB vendors to expose data
+- Models used in Interactions App PoC - gpt-4o-2024-08-06, text-embedding-ada-002-v2
+- Interactions App PoC built using Java, Spring AI. Easy Integrations with Java workloads.
+
+Costs
+Tokens used on 2nd July :-
+gpt4o -  388,003 input tokens, 155,151 output tokens
+embeddings - 1,472 tokens
+OpenAI pricing - https://platform.openai.com/docs/pricing
+Explore batch api mechanism for bat
+- Models used , gpt-4o-mini-2024-07-18,
+- Explore batch api
+ $0.10/per million tokens
+gpt-4o-2024-08-06 input $2.5/permillon token, $1.25 cached input per millon token, $10.00 output per million token
+
+
+
+
+embeddings tokens usage
+
+java programming language
+
+
+
+
+
+
+1. I am a software developer and I work in a large UK retail bank. I have built a personal project that I need to pitch to my senior management. Your job is to create a 3-4 slide deck that I can use while pitching. I have a running demo prepared already that shows the app running. This slide deck I will use before showing the running app. The app is called interactions. Interactions app allows you to interact with your existing app components using natural language. It also brings your app closer to genrative ai ecosystem while maintaining controls. In my slide deck i INTEND TO use a fictional analyst named as" Ben Stokes", he works as an analyst in the bank. His daily job involves analysing trades that have been done by bank's traders, to determine whether these executed trades follow trader conduct principles or not. So, he uses documentation to read and understand trader conduct principles, this involves searching and understanding through cast and varied kind of documentation around trader conduct. he also triggers trade ingestion pipelines to ingest trades of the day in his apps database. he writes simple to very complex sequel queries to pull out relevant data from app's database. Based on the fetched data he also creates dashboards to share with other collegues and stakeholders of his team. He normally shares these docs via email. all of this involves interacting with various user interfaces .
+- Interactions app provides a single interface to ben stokes to interact with various app components and that too in natural language
+2. Run Demo
+3. Closing Slide-
+-Help me help Ben Stokes by giving me the opportunity to build interactions app, it will not just be helpful for Ben but to his collegues across C&I
+Points to consider
 - Light weight modesl can be used for data analyses to save cost.
 - Build generic MCP servers
 - MCP servers for charts and visualizations
