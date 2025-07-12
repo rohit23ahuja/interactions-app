@@ -1,14 +1,34 @@
+1. prompts documents chat no knowledge
 can you teach me mifid regulation?
 
 what is insider trading? provide an example with you response
 
-===================================================
+2. ingest knowledge
+
+3. documents with knowledge ingested
+can you teach me mifid regulation?
+
+what is insider trading? provide an example with you response
+
+4. query simple
 
 tell me the count of orders feed for 1st october 2024
 
-for trades feed and for first 15 days of november 2024, tell me the count for each date. provide date in DD/MM format.
+5. query of bar chart
+for trades feed and for first 15 days of november 2024, tell me the count for each date.
+provide date in DD/MM format.
 
+generate a bar for below data :-
+
+6. query of pie chart
 for orders feed and for month october 2024, categorize the dates into three categories and tell the percentage of each category :-
 category 1 - count between 0 and 20
 category 2 - count between 20 and 40
 category 3 - count greater than 40
+
+generate a pie chart for below data :-
+
+7. list tools
+
+8. send an email
+send an email to "rohit23ahuja@gmail.com" with message "analysis of orders of the day"
